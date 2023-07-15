@@ -10,9 +10,13 @@ public class myHashMap {
         map.put(3,"Reddy");
         System.out.println(map.get(3));
         map.put(2,"Mettu");
-        map.remove(3);
-        System.out.println(map);
+//        map.remove(3);
+        map.put(null, "Hello");
+//        System.out.println(map.get(null));// HashMaps can deal with "null" values also
+        for (Integer key:map.keySet()
+             ) {
+            System.out.println(map.get(key));
 
-
+        }
     }
 }

@@ -12,8 +12,12 @@ public class App {
         myMap.put(new Employee("Kumar",24),"DEF");
         myMap.put(new Employee("Karthik",21),"XYZ");
         System.out.println(myMap);
-       // System.out.println(employee.hashCode() + " " + employee1.hashCode() );
-        myMap.remove(employee.hashCode());
+//       // System.out.println(employee.hashCode() + " " + employee1.hashCode() );
+//        myMap.remove(employee.hashCode());
         System.out.println(myMap);
+        for(Employee z:myMap.keySet()){
+
+            System.out.println(z);
+        }
     }
 }
